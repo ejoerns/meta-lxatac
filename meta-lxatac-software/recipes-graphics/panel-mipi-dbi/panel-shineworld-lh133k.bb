@@ -1,5 +1,3 @@
-FILESEXTRAPATHS:prepend := "${THISDIR}/files:"
-
 PANEL_FIRMWARE = "shineworld,lh133k.txt"
 SRC_URI = "file://${PANEL_FIRMWARE}"
 
