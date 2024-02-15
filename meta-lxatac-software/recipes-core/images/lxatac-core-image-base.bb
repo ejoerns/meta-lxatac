@@ -3,6 +3,7 @@ SUMMARY = "LXA TAC image containing a selection of useful development tools"
 BAD_RECOMMENDATIONS = "rng-tools"
 
 IMAGE_FEATURES = "ssh-server-openssh empty-root-password"
+IMAGE_FEATURES += "tools-debug"
 
 IMAGE_FSTYPES += "ext4"
 
@@ -43,8 +44,6 @@ IMAGE_INSTALL:append = "\
     evtest \
     fb-test \
     fio \
-    gdb \
-    gdbserver \
     git \
     github-act-runner \
     gitlab-runner \
@@ -119,7 +118,6 @@ IMAGE_INSTALL:append = "\
     sispmctl \
     smemstat \
     socat \
-    strace \
     stress-ng \
     sysstat \
     systemd-analyze \
