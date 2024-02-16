@@ -11,7 +11,6 @@ RDEPENDS:${PN}-utils = "\
     mc \
     nano \
     ripgrep \
-    tmux \
     tree \
     vim \
     "

@@ -123,6 +123,7 @@ IMAGE_INSTALL:append = "\
     tacd-webinterface \
     tac-gadget \
     tcpdump \
+    tmux \
     trace-cmd \
     tshark \
     udisks2 \
