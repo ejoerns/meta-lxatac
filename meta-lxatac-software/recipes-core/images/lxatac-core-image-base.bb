@@ -19,6 +19,7 @@ EXTRA_IMAGECMD:ext4 += "-O ^orphan_file"
 IMAGE_LINGUAS = "en-us"
 
 IMAGE_INSTALL:append = "\
+    packagegroup-lxatac-tools-utils \
     alsa-utils \
     atftp \
     atftpd \
@@ -43,7 +44,6 @@ IMAGE_INSTALL:append = "\
     evtest \
     fb-test \
     fio \
-    git \
     github-act-runner \
     gitlab-runner \
     gstreamer1.0 \
@@ -82,11 +82,9 @@ IMAGE_INSTALL:append = "\
     lxatac-persistent-sysstat \
     lxatac-profile \
     lxatac-repart \
-    mc \
     memtool \
     microcom \
     mmc-utils \
-    nano \
     networkmanager-nmcli \
     networkmanager-nmtui \
     nfs-utils-client \
@@ -108,7 +106,6 @@ IMAGE_INSTALL:append = "\
     python3-usbsdmux \
     python3-venv \
     rauc \
-    ripgrep \
     rsync \
     screen \
     ser2net \
@@ -126,14 +123,11 @@ IMAGE_INSTALL:append = "\
     tacd-webinterface \
     tac-gadget \
     tcpdump \
-    tmux \
     trace-cmd \
-    tree \
     tshark \
     udisks2 \
     uhubctl \
     util-linux \
-    vim \
     zstd \
 "
 
