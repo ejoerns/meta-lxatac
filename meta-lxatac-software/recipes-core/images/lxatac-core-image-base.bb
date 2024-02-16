@@ -20,6 +20,7 @@ IMAGE_LINGUAS = "en-us"
 
 IMAGE_INSTALL:append = "\
     packagegroup-lxatac-tools-utils \
+    packagegroup-lxatac-tools-utils-hw \
     alsa-utils \
     atftp \
     atftpd \
@@ -31,7 +32,6 @@ IMAGE_INSTALL:append = "\
     bmap-tools \
     bonnie++ \
     bottom \
-    can-utils \
     chrony \
     chronyc \
     container-control \
@@ -40,7 +40,6 @@ IMAGE_INSTALL:append = "\
     devmem2 \
     dfu-util \
     e2fsprogs-tune2fs \
-    ethtool \
     evtest \
     fb-test \
     fio \
@@ -51,8 +50,6 @@ IMAGE_INSTALL:append = "\
     gstreamer1.0-plugins-base \
     gstreamer1.0-plugins-good \
     htop \
-    i2c-tools \
-    imx-uuu \
     iperf3 \
     iproute2 \
     iproute2-bash-completion \
