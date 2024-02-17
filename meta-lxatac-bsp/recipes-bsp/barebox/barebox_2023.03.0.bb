@@ -1,4 +1,4 @@
-require recipes-bsp/barebox/barebox.inc
+require barebox.inc
 
 SRC_URI += " \
     file://defconfig \
